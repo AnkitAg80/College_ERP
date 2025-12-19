@@ -1,4 +1,4 @@
-# University ERP System
+# College ERP System
 
 A comprehensive **Enterprise Resource Planning (ERP)** system designed for educational institutions. This Java-based application provides integrated management of students, instructors, courses, grades, announcements, and administrative operations.
 
