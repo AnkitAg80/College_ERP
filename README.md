@@ -2,7 +2,7 @@
 
 A comprehensive **Enterprise Resource Planning (ERP)** system designed for educational institutions. This Java-based application provides integrated management of students, instructors, courses, grades, announcements, and administrative operations.
 
-## 📋 Features
+## Features
 
 ### Core Functionality
 - **User Authentication & Authorization** - Role-based access control for Students, Instructors, and Admins
@@ -39,7 +39,7 @@ A comprehensive **Enterprise Resource Planning (ERP)** system designed for educa
 - **PDF Generation**: PDFBox 2.0.31
 - **Utilities**: Apache Commons Lang3 3.12.0, Apache Commons Text 1.10.0, Apache Commons Logging 1.2
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ERP_website_3/
@@ -116,7 +116,7 @@ ERP_website_3/
 └── README.md                     # This file
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - **Java**: JDK 11 or higher
@@ -159,7 +159,7 @@ ERP_website_3/
    java -cp "lib/*:build" edu.univ.erp.auth.LoginFrame
    ```
 
-## 📊 Database Architecture
+## Database Architecture
 
 The system uses two separate MySQL databases:
 
@@ -180,7 +180,7 @@ The system uses two separate MySQL databases:
 
 See `DATABASE_SCHEMA.sql` for complete schema definitions.
 
-## 🔐 Security Features
+## Security Features
 
 - **Password Hashing**: bcrypt algorithm for secure password storage
 - **Role-Based Access Control (RBAC)**: Granular permissions based on user roles
@@ -188,7 +188,7 @@ See `DATABASE_SCHEMA.sql` for complete schema definitions.
 - **Audit Logging**: Complete audit trail of all system actions
 - **Prepared Statements**: SQL injection prevention through parameterized queries
 
-## 📝 Usage Examples
+## Usage Examples
 
 ### Student User
 1. Login with student credentials
@@ -212,7 +212,7 @@ See `DATABASE_SCHEMA.sql` for complete schema definitions.
 5. Create system announcements
 6. Generate backups and manage audit logs
 
-## 🔧 Configuration
+## Configuration
 
 ### Application Settings
 - Database connection parameters in `resources/database.properties`
@@ -223,7 +223,7 @@ See `DATABASE_SCHEMA.sql` for complete schema definitions.
 - Interactive timetable editor for schedule management
 - PDF export functionality available
 
-## 📄 File Descriptions
+## File Descriptions
 
 - **DATABASE_SCHEMA.sql** - Complete database schema with all table definitions
 - **database.properties** - Database connection configuration file
@@ -231,19 +231,19 @@ See `DATABASE_SCHEMA.sql` for complete schema definitions.
 - **PROJECT_DOCUMENTATION.pdf** - Detailed project documentation
 - **relations.png** - Database relationship diagram
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit pull requests with improvements or bug fixes.
 
-## 📜 License
+## License
 
 This project is provided as-is for educational purposes.
 
-## 📞 Support & Contact
+## Support & Contact
 
 For questions or issues, please open an issue in the repository or contact the project maintainer.
 
-## 🎯 Future Enhancements
+## Future Enhancements
 
 - [ ] Web-based interface using Spring Boot/Thymeleaf
 - [ ] Mobile application for students and instructors
@@ -252,7 +252,7 @@ For questions or issues, please open an issue in the repository or contact the p
 - [ ] Multi-institution support
 - [ ] Real-time notifications and messaging
 
-## 📚 Additional Resources
+## Additional Resources
 
 - See `PROJECT_DOCUMENTATION.pdf` for comprehensive system documentation
 - Watch `erp_video.mp4` for a system walkthrough and feature demonstration
